@@ -13,7 +13,7 @@ services:
       REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
     volumes:
       - registrydata:/data
-      - ./auth:/auth
+      # - ./auth:/auth
 #Nginx Service
   nginx:
     image: nginx:alpine
